@@ -1,0 +1,43 @@
+﻿Build started 2015-03-16 8:36:16 PM.
+     1>Project "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\OpenGL_Tutorial.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../ThirdParty/glew-1.10.0/include" /I"../ThirdParty/glfw-3.0.4/include" /I../ThirdParty/glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\\" /Fd"C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Source\controls.cpp ..\Source\shader.cpp ..\Source\texture.cpp ..\Source\lab5.cpp
+         controls.cpp
+         GLM: perspective function taking degrees as a parameter is deprecated. #define GLM_FORCE_RADIANS before including GLM headers to remove this message.
+         shader.cpp
+         texture.cpp
+     1>..\Source\texture.cpp(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>..\Source\texture.cpp(127): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         lab5.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Bin\OpenGL_Tutorial-Release.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"../ThirdParty/glew-1.10.0/lib/Release/Win32" /LIBPATH:"../ThirdParty/glfw-3.0.4/lib/Win32/lib-msvc110" opengl32.lib glew32s.lib glfw3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Bin\OpenGL_Tutorial-Release.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Bin\OpenGL_Tutorial-Release.lib" /MACHINE:X86 /SAFESEH "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\controls.obj"
+         "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\shader.obj"
+         "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\texture.obj"
+         "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Build/Release\lab5.obj"
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+     1>shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+     1>texture.obj : warning LNK4049: locally defined symbol ___glewCompressedTexImage2D imported
+     1>texture.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+     1>glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\Bin\vc100.pdb'; linking object as if no debug info
+         OpenGL_Tutorial.vcxproj -> C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\/../Bin\OpenGL_Tutorial-Release.exe
+     1>Done Building Project "C:\Users\Rita Phom\Documents\Projects\Git2\Lab 5\VS2012\OpenGL_Tutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.04

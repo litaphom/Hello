@@ -78,9 +78,8 @@ int main( void )
 	GLuint vertexUVID = glGetAttribLocation(programID, "vertexUV");
 
 	// Load the texture
-	//GLuint Texture = loadDDS("../Source/uvtemplate.DDS");
-	GLuint Texture = loadBMP_custom("../Source/uvtemplate.dds");
-
+	GLuint Texture = loadDDS("../Source/uvtemplate.DDS");
+	
 	// Get a handle for our "myTextureSampler" uniform
 	GLuint TextureID  = glGetUniformLocation(programID, "myTextureSampler");
 
